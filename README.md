@@ -10,6 +10,12 @@ Install all required node dependencies
 yarn install
 ```
 
+Add api key into KustomerChat.vue component. It will have to be set in the following place
+
+```
+Kustomer.init('API_KEY')
+```
+
 ## Build Setup
 
 ```bash
